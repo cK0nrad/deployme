@@ -1,0 +1,26 @@
+.holder {
+    flex: 1 0;
+    width: 100%;
+    overflow: auto;
+    display: block;
+    text-align: center;
+}
+
+.countryList,
+.sizeList,
+.osList {
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    overflow: auto;
+    margin: 10px auto 20px auto;
+    text-align: left;
+}
+
+.title {
+    text-align: left;
+    color: #3c3c3c;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 700;
+}

@@ -1,0 +1,8 @@
+.rdt_TableHeader * {
+    font-family: "Roboto";
+    font-size: 25px !important;
+    font-weight: 700 !important;
+}
+.rdt_Table {
+    font-family: "Roboto";
+}

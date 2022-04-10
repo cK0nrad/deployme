@@ -1,0 +1,54 @@
+@media (max-width: 800px) {
+    .holder {
+        min-width: 150px;
+        flex: 1;
+    }
+    .add,
+    .total,
+    .remove {
+        border-radius: 0 !important;
+    }
+}
+.holder {
+    display: inline-flex;
+    width: 150px;
+    height: 50px;
+}
+
+.add,
+.total,
+.remove {
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid #0a1931;
+    user-select: none;
+    cursor: pointer;
+    color: #0a1931;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex: 1;
+    transition: 0.2s;
+}
+
+.add {
+    border-radius: 5px 0 0 5px;
+    border-right: 1px solid #0a1931;
+}
+
+.total {
+    border-right: 1px solid #0a1931;
+    border-left: 1px solid #0a1931;
+}
+
+.remove {
+    border-radius: 0 5px 5px 0;
+    border-left: 1px solid #0a1931;
+}
+
+.add:hover,
+.remove:hover {
+    color: #fff;
+    background-color: #0a1931;
+}

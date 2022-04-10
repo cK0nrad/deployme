@@ -1,0 +1,24 @@
+.holder {
+    padding: 20px;
+}
+@media (max-width: 710px) {
+    .usage {
+        grid-template-columns: repeat(1, auto) !important;
+    }
+    .title {
+        width: 100%;
+        text-align: center;
+    }
+}
+.usage {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+}
+.title {
+    color: #0a1931;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 25px 0;
+}

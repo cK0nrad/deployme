@@ -1,0 +1,19 @@
+.holder {
+    margin: 20px;
+    height: 100%;
+}
+
+.title {
+    flex: 0;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3c3c3c;
+    margin-bottom: 20px;
+}
+
+.list {
+    flex: 1;
+    height: 100%;
+    border: 2px solid #0a1931;
+}

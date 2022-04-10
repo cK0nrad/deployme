@@ -1,0 +1,56 @@
+.holder {
+    text-align: left;
+    margin: 5px;
+    user-select: none;
+    cursor: pointer;
+    width: 220px;
+    height: 100px;
+    border: 2px solid #3c3c3c;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.2s;
+}
+
+.active {
+    background-color: #0a1931;
+    border: 2px solid #0a1931;
+}
+
+.active > .councity > .city {
+    color: #ffff;
+}
+
+.flag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flag img {
+    width: 70px;
+    border-radius: 5px;
+}
+
+.flag,
+.councity {
+    flex: 1;
+    align-items: center;
+}
+
+.country,
+.city {
+    font-weight: 900;
+}
+
+.country {
+    color: #989898;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.city {
+    color: #3c3c3c;
+    text-transform: uppercase;
+}

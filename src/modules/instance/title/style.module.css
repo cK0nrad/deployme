@@ -1,0 +1,53 @@
+@media (max-width: 420px) {
+    .holder {
+        width: 100% !important;
+    }
+}
+.holder {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    height: 100px;
+}
+
+.logo {
+    position: relative;
+    background-color: #0a1931;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.status {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    right: 2px;
+    bottom: 2px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    font-size: 17px;
+    font-weight: 700;
+}
+.title {
+    color: #0a1931;
+}
+.ip {
+    color: #3c3c3c;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.actions {
+    color: #0a1931;
+    text-align: right;
+    height: 50%;
+}
