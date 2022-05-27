@@ -1,5 +1,5 @@
-/*@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
-*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 @media (max-width: 800px) {
     .container {
         width: 50px !important;
@@ -40,11 +40,18 @@
 }
 
 .active {
-    height: 100%;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
-    text-align: center;
-    vertical-align: middle;
     right: -3px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.activeContainer{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
     top: 0;
 }

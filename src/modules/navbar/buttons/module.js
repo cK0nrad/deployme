@@ -10,7 +10,9 @@ export default function NavButtons({name, icons, active}){
         <div className={styles.container}>
             <FontAwesomeIcon className={styles.icon} icon={icons} />
             <p className={styles.name}>{name}</p>
-            {active?<FontAwesomeIcon className={styles.active} icon={faChevronLeft} />:false}
+            <div className={styles.activeContainer}>
+                {active?<FontAwesomeIcon className={styles.active} icon={faChevronLeft} />:false}
+            </div>
         </div>
     )
 }
